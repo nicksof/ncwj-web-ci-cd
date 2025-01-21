@@ -1,1 +1,2 @@
-![portfolio-architecture](https://github.com/user-attachments/assets/3e4e1729-f2af-400b-a298-8c077d166b64)
+
+![Screenshot_3](https://github.com/user-attachments/assets/623bd88b-edc5-4b94-8fbf-d04782c4e23f)
