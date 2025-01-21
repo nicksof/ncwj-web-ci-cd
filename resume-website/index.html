@@ -1,113 +1,307 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js ss-preload" lang="en">
 
 <head>
-    <!-- hi -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicholas</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Nicholas Chan Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="w">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/resume-website/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resume-website/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resume-website/favicon.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <h1 class="fade-in">Nicholas Chan</h1>
-            <p class="fade-in-delay">Aspiring Cloud Engineer</p>
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
         </div>
-    </header>
+    </div>
 
-    <nav>
-        <button class="menu-toggle">☰ Menu</button>
-        <ul class="menu">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <main>
-        <section id="about">
-            <div class="container slide-in">
-                <h2>About Me</h2>
-                <p>I am a passionate cloud engineer with experience in designing and implementing scalable, secure, and
-                    cost-effective cloud solutions. Skilled in AWS, DevOps, and automation tools.</p>
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Nicholas.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
             </div>
-        </section>
 
-        <section id="skills">
-            <div class="container slide-in">
-                <h2>Skills</h2>
-                <ul>
-                    <li>AWS Services (EC2, S3, RDS, Lambda, CloudFormation)</li>
-                    <li>DevOps Tools (Terraform, Docker, Kubernetes, Jenkins)</li>
-                    <li>Programming Languages (Python, Bash, JavaScript)</li>
-                    <li>Monitoring Tools (CloudWatch, Prometheus, Grafana)</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="experience">
-            <div class="container slide-in">
-                <h2>Experience</h2>
-                <div class="job">
-                    <h3>Cloud Engineer - Fiuu IT Solutions</h3>
-                    <p><strong>July 2024 – Present</strong></p>
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
                     <ul>
-                        <li>Designed and deployed secure and scalable AWS solutions, reducing costs by 20%.</li>
-                        <li>Automated infrastructure deployment using Terraform and AWS CloudFormation.</li>
-                        <li>Implemented CI/CD pipelines for faster and more reliable application delivery.</li>
+                        <li><a href="index.html" class="home-link">Nicholas.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <!-- <li><a href="#works" class="smoothscroll">Works</a></li> -->
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                        <li class="visitor-counter"><a href="" class="smoothscroll">Couldn't read views</a></li>
                     </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello World
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            My name is Nicholas, <br>
+                            an aspiring <br>
+                            Cloud Engineer <br>
+                            based in <br>
+                            Kuala Lumpur.
+                        </h1>
+                    </div>
+
+
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        fill-rule="evenodd" clip-rule="evenodd">
+                        <path
+                            d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z" />
+                    </svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <!-- <img src="" 
+                             srcset=" 1x, images/about-photo@2x.jpg 2x" alt="" class="about-info__pic" data-animate-el> -->
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text">
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                I am a fresh graduate with a strong interest in cloud computing,
+                                eager to apply my skills in a professional environment.
+                                Passionate about learning and problem-solving, I strive to design and implement
+                                efficient,
+                                scalable cloud solutions. I am excited to grow my expertise and contribute to innovative
+                                projects in the industry.
+                            </p>
+                            <a href="assets/NicholasChan_Resume.pdf" download="NicholasChan_Resume"
+                                class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
+
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>Interest</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>Cloud Computing</li>
+                            <li>CI/CD</li>
+                            <li>Containerization</li>
+                            <li>Automation</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Razer Merchant Services (Fiuu)</h3>
+                                        <h5 class="timeline__meta">Cloud Infrastructure Engineer Intern</h5>
+                                        <p class="timeline__timeframe">June 2024 - November 2024</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Florism De Art</h4>
+                                    <h5 class="timeline__meta">Web Developer (Freelance)</h5>
+                                    <p class="timeline__timeframe">September 2022 - December 2022</p>
+                                </div>
+                            </div>
+
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Tunku Abdul Rahman University of Management & Technology
+                                        </h3>
+                                        <h5 class="timeline__meta">Bachelor in Software Engineering</h5>
+                                        <p class="timeline__timeframe">December 2024</p>
+                                </div>
+                            </div>
+
+
+
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <!-- <a href="mailto:nicholaschan890@gmail.com" class="mailtoui">nicholaschan890@gmail.com</a> <br> -->
+                            <a href="tel:+60">+60 1110790839</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://github.com/nicksof">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/nicholas-chan-a5167b236/">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:nicholaschan890@gmail.com"
+                            class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright NC 2025</span>
+                    <!-- <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span> -->
                 </div>
-                <div class="job">
-                    <h3>Cloud Intern - Fiuu IT Solutions</h3>
-                    <p><strong>Jan 2024 – June 2024</strong></p>
-                    <ul>
-                        <li>Assisted in migrating legacy systems to AWS with zero downtime.</li>
-                        <li>Performed security audits and optimized IAM roles and policies.</li>
-                    </ul>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd"
+                            clip-rule="evenodd">
+                            <path
+                                d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-        </section>
 
-        <section id="projects">
-            <div class="container slide-in">
-                <h2>Projects</h2>
-                <div class="project">
-                    <h3>Uptime Monitoring Tool</h3>
-                    <p>Developed a custom monitoring solution using Uptime Kuma and integrated it with Telegram for
-                        instant alerts.</p>
-                </div>
-                <div class="project">
-                    <h3>Serverless File Processing</h3>
-                    <p>Created a serverless application using AWS Lambda to process large files and store results in S3.
-                    </p>
-                </div>
-            </div>
-        </section>
+        </footer> <!-- end s-footer -->
 
-        <section id="contact">
-            <div class="container slide-in">
-                <h2>Contact</h2>
-                <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
-                <p>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
-                <p>GitHub: <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></p>
-            </div>
-        </section>
-    </main>
+    </div> <!-- end -s-pagewrap -->
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 John Doe. All Rights Reserved.</p>
-        </div>
-        <div class="visitor-counter">
-            Couldnt read views
-        </div>
-    </footer>
 
-    <script src="js/script.js"></script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
