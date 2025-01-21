@@ -4286,7 +4286,13 @@ img.u-pull-left {
 }
 
 .views {
-    color: #ffffff;
-    font: 10px "PublicSans", sans-serif;
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
     padding: 0px 20px 0px 24px;
+    line-height: var(--header-height);
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    color: white;
+    transition-property: color, background-color;
 }
